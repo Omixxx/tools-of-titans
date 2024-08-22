@@ -8,7 +8,8 @@
   "types": "index.d.ts",
   "scripts": {
     "build": "tsup index.ts --format cjs,esm --dts",
-    "lint": "tsc"
+    "lint": "tsc",
+    "release": "pnpm run build && changeset publish"
   },
   "private": true,
   "devDependencies": {
