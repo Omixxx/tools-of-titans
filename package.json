@@ -1,0 +1,19 @@
+{
+  "name": "tools-of-titans",
+  "version": "0.0.1",
+  "license": "MIT",
+  "description": "A set of tool for your day to day p5js",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "tsup index.ts --format cjs,esm --dts",
+    "lint": "tsc"
+  },
+  "private": true,
+  "devDependencies": {
+    "@changesets/cli": "^2.27.7",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
