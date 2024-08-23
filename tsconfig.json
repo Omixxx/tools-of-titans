@@ -106,6 +106,5 @@
     "skipLibCheck": true,                                /* Skip type checking all .d.ts files. */
     "noUncheckedIndexedAccess": true,
     "noEmit": true,
-    "include": ["src/**/*.ts"]
   }
 }
